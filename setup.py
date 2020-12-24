@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyteleprint", # Replace with your own username
-    version="1.0.1",
+    version="1.0.3",
     author="Rojit George",
     author_email="rojitrgeorge@gmail.com",
     description="A package for remote program alerts,prints and notification through Telegram",

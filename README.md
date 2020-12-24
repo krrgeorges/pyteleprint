@@ -19,8 +19,8 @@ This is meant for users who want print() to be a remote notification and alert m
 
 ### Requirements
 
-* Requires Python -v >= 3.4.0 
-* Telegram App
+Requires Python -v >= 3.4.0 
+Telegram App
 
 ### Installation
 
@@ -49,6 +49,8 @@ ChatIDExtractor(API_TOKEN).start()
 Once the script is executed, the program would start polling for messages to get chat id. Send a message to your new bot. This will help the program extract the chat id. Use this chat id to send notifications and alerts.
 
 If in future, you delete or lose the chat thread, you can redo the above process to get the new chat id.
+
+This chat id can be used statically in any application at any point in time iff the chat thread with the bot exists. But, if the user deletes the chat with their bot then they have to re-extract the chat id since there would be a new chat thread to communicate with the bot.
 
 Now, you have the API Token and the chat id with you, use them to create a Printer object in your scripts and use the print() method to send notifications,prints and alerts.
 
