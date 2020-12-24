@@ -19,8 +19,8 @@ This is meant for users who want print() to be a remote notification and alert m
 
 ### Requirements
 
-Requires Python -v >= 3.4.0 
-Telegram App
+* Requires Python -v >= 3.4.0 
+* Telegram App
 
 ### Installation
 
