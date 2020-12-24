@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyteleprint
-Version: 1.0.3
+Version: 1.0.4
 Summary: A package for remote program alerts,prints and notification through Telegram
 Home-page: https://github.com/krrgeorges/pyteleprint
 Author: Rojit George
@@ -27,8 +27,8 @@ Description: ## Project Description
         
         ### Requirements
         
-        Requires Python -v >= 3.4.0 
-        Telegram App
+        * Requires Python -v >= 3.4.0 
+        * Telegram App
         
         ### Installation
         
